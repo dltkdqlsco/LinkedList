@@ -22,8 +22,8 @@ public class MyLinkedList {
                 temp = temp.next;
             }
             temp.next = newNode;
-            count++;
         }
+        count++;
         return newNode;
     }
 
@@ -127,11 +127,11 @@ public class MyLinkedList {
             return;
         }
         while(tempNode != null){
-            System.out.println(tempNode.getData());
+            System.out.print(tempNode.getData());
             tempNode = tempNode.next;
 
-            if(tempNode.next != null){
-                System.out.println("->");
+            if(tempNode != null){
+                System.out.print("->");
             }
         }
         System.out.println("");
