@@ -1,7 +1,7 @@
 public class MyLinkNode {
 
     private String data;
-    private MyLinkNode next;
+    public MyLinkNode next;
 
     public MyLinkNode(){
         data = null;
